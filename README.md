@@ -99,7 +99,6 @@ make
 ```
 
 After the code is executed, it should output a log.txt file in the same directory. It shows the results of all the functions' calculations and the time they were finalized, like this:
-
 ```
 New entry:
 ------------------------
@@ -124,73 +123,5 @@ New entry:
 2024-04-12 23:59:14.799: automaticHeadLights{lightLevel: 472.75 state: 0 Decision: off}
 2024-04-12 23:59:14.799: automaticDoorLocks{speed: 46 closeDoors: 0 Decision: none}
 2024-04-12 23:59:14.799: laneCorrection{speed: 46 leftLaneAngle: 20 rightLaneAngle: 5 beingSteered: 0 Decision: Steer -30}
-2024-04-12 23:59:14.799: ForwardCollision: Distance : 121.5 - Applying Brake level 2
-2024-04-12 23:59:14.799: RearCollision: Distance : 97 - Applying Brake level 3
-2024-04-12 23:59:14.799: Wiper status decreased to1
-2024-04-12 23:59:14.799: Interior temperature increased55
-2024-04-12 23:59:14.799: trafficLightRecognition{ Traffic Light Recognition is off }
-2024-04-12 23:59:14.799: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
-2024-04-12 23:59:14.799: automaticHeadLights{lightLevel: 536.75 state: 0 Decision: off}
-2024-04-12 23:59:14.799: automaticDoorLocks{speed: 96 closeDoors: 0 Decision: none}
-2024-04-12 23:59:14.799: laneCorrection{speed: 96 leftLaneAngle: -10 rightLaneAngle: 47 beingSteered: 0 Decision: Steer 114}
-2024-04-12 23:59:14.799: ForwardCollision: Distance : 157.5 - Applying Brake level 2
-2024-04-12 23:59:14.799: RearCollision: Distance : 109 - Applying Brake level 2
-2024-04-12 23:59:14.799: Wiper status increased to0
-2024-04-12 23:59:14.799: Interior temperature increased44
-2024-04-12 23:59:14.799: trafficLightRecognition{ GREEN traffic light detected! }
-2024-04-12 23:59:14.799: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
-2024-04-12 23:59:14.799: automaticHeadLights{lightLevel: 463 state: 0 Decision: off}
-2024-04-12 23:59:14.799: automaticDoorLocks{speed: 150 closeDoors: 0 Decision: none}
-2024-04-12 23:59:14.799: laneCorrection{speed: 150 leftLaneAngle: 85 rightLaneAngle: -73 beingSteered: 0 Decision: Steer -316}
-2024-04-12 23:59:14.800: ForwardCollision: Distance : 140 - Applying Brake level 2
-2024-04-12 23:59:14.800: RearCollision: Distance : 155.5 - Applying Brake level 2
-2024-04-12 23:59:14.800: Wiper status stayed the same3
-2024-04-12 23:59:14.800: Interior temperature increased30
-2024-04-12 23:59:14.800: trafficLightRecognition{ Traffic Light Recognition is off }
-2024-04-12 23:59:14.800: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
-2024-04-12 23:59:14.800: automaticHeadLights{lightLevel: 577.25 state: 0 Decision: off}
-2024-04-12 23:59:14.800: automaticDoorLocks{speed: 189 closeDoors: 0 Decision: none}
-2024-04-12 23:59:14.800: laneCorrection{speed: 189 leftLaneAngle: -50 rightLaneAngle: 12 beingSteered: 0 Decision: Steer 124}
-2024-04-12 23:59:14.800: ForwardCollision: Distance : 111.5 - Applying Brake level 2
-2024-04-12 23:59:14.800: RearCollision: Distance : 86.5 - Applying Brake level 3
-2024-04-12 23:59:14.800: Wiper status decreased to1
-2024-04-12 23:59:14.800: Interior temperature decreased78
-2024-04-12 23:59:14.800: trafficLightRecognition{ RED traffic light detected! }
-2024-04-12 23:59:14.800: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
-2024-04-12 23:59:14.800: automaticHeadLights{lightLevel: 643 state: 0 Decision: off}
-2024-04-12 23:59:14.800: automaticDoorLocks{speed: 34 closeDoors: 0 Decision: none}
-2024-04-12 23:59:14.800: laneCorrection{speed: 34 leftLaneAngle: 65 rightLaneAngle: -88 beingSteered: 0 Decision: Steer -306}
-2024-04-12 23:59:14.800: ForwardCollision: Distance : 100.5 - Applying Brake level 2
-2024-04-12 23:59:14.800: RearCollision: Distance : 148 - Applying Brake level 2
-2024-04-12 23:59:14.800: Wiper status stayed the same2
-2024-04-12 23:59:14.800: Interior temperature increased40
-2024-04-12 23:59:14.800: trafficLightRecognition{ Traffic Light Recognition is off }
-2024-04-12 23:59:14.800: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
-2024-04-12 23:59:14.800: automaticHeadLights{lightLevel: 398.5 state: 0 Decision: on}
-2024-04-12 23:59:14.800: automaticDoorLocks{speed: 111 closeDoors: 0 Decision: none}
-2024-04-12 23:59:14.800: laneCorrection{speed: 111 leftLaneAngle: 0 rightLaneAngle: 30 beingSteered: 0 Decision: Steer 60}
-2024-04-12 23:59:14.800: ForwardCollision: Distance : 199.5 - Applying Brake level 2
-2024-04-12 23:59:14.800: RearCollision: Distance : 76.5 - Applying Brake level 3
-2024-04-12 23:59:14.800: Wiper status increased to0
-2024-04-12 23:59:14.800: Interior temperature increased67
-2024-04-12 23:59:14.800: trafficLightRecognition{ YELLOW traffic light detected! }
-2024-04-12 23:59:14.800: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
-2024-04-12 23:59:14.800: automaticHeadLights{lightLevel: 718.25 state: 0 Decision: off}
-2024-04-12 23:59:14.800: automaticDoorLocks{speed: 159 closeDoors: 0 Decision: none}
-2024-04-12 23:59:14.800: laneCorrection{speed: 159 leftLaneAngle: 75 rightLaneAngle: -60 beingSteered: 0 Decision: Steer -270}
-2024-04-12 23:59:14.800: ForwardCollision: Distance : 159.5 - Applying Brake level 2
-2024-04-12 23:59:14.800: RearCollision: Distance : 217.5 - Applying Brake level 1
-2024-04-12 23:59:14.800: Wiper status increased to1
-2024-04-12 23:59:14.800: Interior temperature decreased84
-2024-04-12 23:59:14.800: trafficLightRecognition{ Traffic Light Recognition is off }
-2024-04-12 23:59:14.800: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
-2024-04-12 23:59:14.800: automaticHeadLights{lightLevel: 522 state: 0 Decision: off}
-2024-04-12 23:59:14.800: automaticDoorLocks{speed: 67 closeDoors: 0 Decision: none}
-2024-04-12 23:59:14.800: laneCorrection{speed: 67 leftLaneAngle: -15 rightLaneAngle: 80 beingSteered: 0 Decision: Steer 190}
-2024-04-12 23:59:14.800: ForwardCollision: Distance : 163.5 - Applying Brake level 2
-2024-04-12 23:59:14.800: RearCollision: Distance : 78.5 - Applying Brake level 3
-2024-04-12 23:59:14.800: Wiper status decreased to3
-2024-04-12 23:59:14.800: Interior temperature increased32
-2024-04-12 23:59:14.800: trafficLightRecognition{ GREEN traffic light detected! }
-2024-04-12 23:59:14.800: emergencyVehicleDetection{ Emergency Vehicle is Approaching! }
 ```
+You don't even have to delete it per run. It should just append each entry to the end.
